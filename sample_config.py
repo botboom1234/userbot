@@ -18,7 +18,7 @@ class Config(object):
     APP_ID = int(os.environ.get("APP_ID", 28662767))
     API_HASH = os.environ.get("API_HASH", d887f192e8fbc3d2a36abe08fb6e0e9a) or None
     # Datbase url heroku sets it automatically else get this from elephantsql
-    DB_URI = os.environ.get("DATABASE_URL", MONGO_URL","mongodb+srv://amdrez:popoloco01@cluster0.yjxt6au.mongodb.net/?retryWrites=true&w=majority)
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://amdrez:popoloco01@cluster0.yjxt6au.mongodb.net/?retryWrites=true&w=majority)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
     STRING_SESSION = os.environ.get("STRING_SESSION", 1AZWarzgBuzQ1pGCd_H5jReAnAFUTFc8j_Z90QPt3Fx6EIJhiISZxZH0fB7GJavdltrZS0FQYymHlt54LHKgZM0efrBE1Xbfk5Sl2IJSatUT-8tqChjyUYuxhU7hKarzFNr1rJnhkChCJoCwEKqiC8yRE5hfn1KLKg9elFPwd6SLjhN7bfr8IegVajb7TC0HaC-oeUyyAtJEpwZugXE7Hs_52TIgXNkH_t7JCrpwtMJNVyMb1iY47XQxVkg10cQKa20fAJzufUWxE7QvLRqf9njf_HvqjbsSUnrfX_MUD7FR9svWJ7x1Xp1Ay_stuCmvU5COehhsylwyNNTZPX-LN3PfG1FO_3CQ=)
     # Telegram BOT Token and bot username from @BotFather
